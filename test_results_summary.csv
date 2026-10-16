@@ -1,0 +1,9 @@
+Posting,Category,LR Balanced,Naive Bayes,LR Standard,Flags,Assessed Level,System Verdict,Status
+Legitimate: Senior Cloud DevOps Engineer (Pyt...,Legitimate, 22.4%,  0.9%,  4.8%,0,LOW RISK,LIKELY LEGITIMATE,PASSED
+Legitimate: Enterprise Customer Success Manag...,Legitimate,  7.5%,  0.4%,  1.6%,0,LOW RISK,LIKELY LEGITIMATE,PASSED
+Suspicious: Fake Check & Wire Transfer Clerk ...,Suspicious, 90.5%, 70.5%, 41.3%,4,HIGH RISK,SUSPECTED SCAM,PASSED
+Suspicious: Telegram Crypto Investment Assist...,Suspicious, 85.5%, 35.1%, 35.6%,4,HIGH RISK,SUSPECTED SCAM,PASSED
+Suspicious: Identity Harvesting / Upfront SSN...,Suspicious, 54.5%, 26.8%, 14.5%,3,HIGH RISK,SUSPECTED SCAM,PASSED
+Ambiguous: Stealth AI Startup ML Intern (Pers...,Ambiguous, 10.5%,  0.1%,  2.5%,1,HIGH RISK,SUSPECTED SCAM,PASSED
+Ambiguous: 100% Commission-Only Direct Sales ...,Ambiguous, 19.4%, 11.2%,  4.4%,1,MODERATE RISK,PROCEED WITH CAUTION,PASSED
+Ambiguous: Urgent Seasonal Warehouse Material...,Ambiguous, 17.0%,  6.2%,  4.3%,1,MODERATE RISK,PROCEED WITH CAUTION,PASSED

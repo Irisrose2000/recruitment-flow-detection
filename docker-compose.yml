@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  # 1. Interactive Streamlit Web Dashboard
+  web-ui:
+    build: .
+    container_name: job-fraud-shield-ui
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+  # 2. Production FastAPI Microservice
+  api-service:
+    build: .
+    container_name: job-fraud-shield-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]

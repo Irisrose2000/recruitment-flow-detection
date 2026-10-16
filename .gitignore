@@ -1,0 +1,30 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Large Raw Datasets (downloadable from Kaggle/EMScAD)
+archive/*.csv
+archive/*.zip
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit Cache & Local Runtime
+.streamlit/
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
